@@ -1,0 +1,61 @@
+:root {
+    --primary-color: rgb(0, 0, 255);
+    --style: 'Courier New', Courier, monospace;
+} 
+
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: var(--style);
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    background:  white;
+    padding: 20px;
+    
+}
+
+form input,form label, form button {
+   display: block;
+   width: 100%;
+   margin-bottom: 10px;
+
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline:1px solid var(--primary-color) ;
+
+}
+
+form button {
+    background: var(--primary-color);
+    border: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 700px; 
+    cursor: pointer;
+}
+
+.relogio{
+    font-size: 3em;
+}
+
+.pausado{
+    color: red;
+}
